@@ -1,0 +1,142 @@
+img, figure {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    line-height: 0;
+}
+.nav1{
+ display :-webkit-box;
+}
+
+.nav1>ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav1>ul>li {
+    margin: 5px 0;
+    display : inline;
+    padding: 0px 20px 20px 0px;
+}
+
+.nav1>ul>li>a {
+    display: block;    
+}
+
+.treeview  {
+padding: 10px 10px 10px 10px;
+border-bottom: 1px solid #193E74;
+display: block;
+clear: both;
+color: #fff;
+text-decoration: none;
+}
+
+ul {
+margin-top: 10px;
+margin-bottom: 10px; 
+}
+.treeview-menu{
+display: block;
+}
+
+
+
+.main-navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 42px;
+	margin: 100px 0px auto 0px;
+}
+
+.main-navbar-content {
+    padding: 4px 16px;
+}
+
+.main-content {
+    position: relative;
+    margin-top: 42px;
+    padding: 1em;
+}
+
+
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.icon {
+    position: relative;
+    width: 32px;
+    height: 32px;
+   margin-top: 10px;
+    padding-right: 50px;
+}
+
+.icon img {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.main-sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: #365D95;
+    color: white;
+    width: 400px;
+}
+.main-sidebar a:link {
+    color: #fff;
+}
+.main-sidebar a:visited {
+    color:#fff;
+}
+.main-sidebar a:hover {
+    color: #fbc02d;
+}
+.main-sidebar a:active {
+    color: #ffc107;
+}
+.main-sidebar .section .section2 {
+    margin: 1em 0;
+    margin-bottom: 2em !important;
+    float: left;
+}
+
+.main-sidebar-right {
+    right: 0;
+	font-size:18px;
+}
+.main-sidebar-left {
+    left: 0;
+    text-align: left;
+}
+
+[data-ssbplugin="sbwrapper"] {
+    padding: 1em;
+}
+
+.dynamic-right .main-navbar-content {
+    float: right;
+}
+
+.dynamic-left .main-navbar-content {
+    float: left;
+}
+
+.main-sidebar-wrapper {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 1em;
+}

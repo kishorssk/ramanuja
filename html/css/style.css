@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'Sanskrit2003';
+  src: url('Sanskrit2003.ttf');
+}
+@font-face {
+  font-family: 'siddhanta1';
+  src: url('siddhanta1.ttf');
+}
+
+body{
+font-family: 'siddhanta1';
+}
+
+.container{
+width: 70%;
+margin: 120px auto 50px auto;
+}
+
+.header{
+width : 100%;
+clear : both;
+background-color: #fff;
+box-shadow : 0 0 20px #ccc;
+position: fixed;
+z-index: 9;
+}
+
+.header h3{
+display: inline-block;	
+padding: 1em 1em;
+border-top: none;
+color: #BB0000;
+/* font-weight: bold; */
+font-size: 25px;
+/* font-size: 1.2rem; */
+}
+
+.logo{
+display: block;
+float: left;
+margin-left: 5%;
+}
+
+.navbar-toggle{
+border: 1px solid  red;
+border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar{
+background-color: red;
+}
+
+.main-nav {
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+  height: 100%;
+  background-size: 44px 44px;
+  cursor: pointer;
+}
+
+a{
+color: #BB0000;
+}
+
+
+
+p{
+text-align: justify;
+line-height: 2em;
+}
+
+.bhashya , .leading_bhashya , .intro_bhashya {
+font-family: 'siddhanta1';
+font-size : 18px;
+text-align: justify;
+line-height: 2em;
+padding : 5px 5px 5px 5px;
+}
+
+.versetext {
+text-align: center;
+color: #9E1212;
+width: 60%;
+margin: 2em auto 0em auto;
+padding: 0.25em 0 0.25em 0;
+font-family: 'siddhanta1';
+font-size : 20px;
+}
+
+
+.ssname{ 
+font-family: 'siddhanta1';
+text-align: left;
+margin-bottom: 0.5em;
+width: 50%;
+border-bottom: 1px solid #BB0000;
+color: #BB0000;
+font-weight: bold;
+font-size : 20px;
+padding: 10px 10px 10px 10px;
+}
+
+.authorline{
+font-family: 'siddhanta1';
+font-size : 20px;
+text-align: center;
+padding : 10px 10px 10px 10px;
+}
+
+.ch_name {
+font-size: 2em;
+text-align: center;
+margin-top: 1em;
+font-weight: bold;
+color: #9E1212;
+line-height: 1;
+font-family: 'siddhanta1';
+margin-bottom: 0.5em;
+}
+
+.sname {
+font-size: 1.5em;
+text-align: center;
+margin-bottom: 0.75em;
+color: #9E1212;
+font-family: 'siddhanta1';
+}
+
+hr{
+border-top: 2px solid #BB0000;
+}
+
+.sheading{
+font-family : 'siddhanta1';
+font-size: 20px;
+font-weight: bold;
+}
+
+.show_bhashya {
+font-size: 16px;
+text-align: right;
+color: #BB0000;
+width: 100%;
+margin: 0 auto 0 auto;
+display: inline-block;
+text-decoration: none;
+}
+
+.show_bhashya:HOVER {
+text-decoration: underline;
+}
+
+.allbhashya {
+display: none;
+}
+
